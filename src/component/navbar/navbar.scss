@@ -1,0 +1,29 @@
+
+.nav{
+    display: flex;
+        justify-content: space-between;
+        background-color: #EE6C4D;
+    .left-nav{
+         display: flex;
+         gap: 25px;
+         align-items: center;
+      a{
+
+        text-decoration: none;
+        color:white;
+        cursor: pointer;
+      }
+         input{
+            border: none;
+            width: 200px;
+         }
+         
+
+    }
+    .right-nav{
+       display: flex;
+    }
+}
+hr{
+    background-color: aqua;
+}

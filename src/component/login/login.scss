@@ -1,0 +1,55 @@
+
+.login{
+    background-color: powderblue;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .form{
+        display: flex;
+        width:600px;
+        height: 600px;
+        .left{
+         display: flex;
+         padding: 50px;
+         flex: 1;
+         flex-direction: column;
+         background: linear-gradient(rgba(22,34,56,0.3),rgba(34,66,76,0.3)),url('./image.jpg');
+         background-size: cover;
+         color:white;
+              h1{
+                 font-weight:bold;
+                 font-size: 50px;
+            }
+            }
+        .right{
+             background-color: white;
+             display: flex;
+             padding: 30px;
+             flex-direction: column;
+               flex: 1;
+               gap: 30px;
+                 h1{
+                font-weight:500;
+               }
+               button{
+                width: 150px;
+                height: 30px;
+                color: white;
+                background-color: blue;
+                border: none;
+                border-radius: 2px;
+               }
+               input{
+                font-size: 20px;
+                height: 50px;
+                outline: none;
+              
+                &:focus{
+                  border: 2px solid blue;
+                }
+             }
+        }
+    }
+}

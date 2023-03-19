@@ -1,0 +1,81 @@
+.post {
+    padding: 15px;
+    z-index: 999;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        .left-head{
+            display: flex;
+        }
+    }
+    .footer{
+        display: flex;
+        gap:10px;
+        align-items: center;
+        .like{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .comment{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .share{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+    
+     
+}
+  .img{
+    
+    
+    object-fit: cover;
+    img{
+        height: 300px;
+    }
+}
+.styleComent{
+    margin-top: 50px;
+     
+    .Docomment{
+        display: flex;
+        justify-content: space-around;
+        input{
+            width:70%;
+        }
+    }
+    .commenter{
+        display: flex;
+        gap:10px;
+        margin-top: 20px;
+      justify-content: space-between;
+    }
+}
+.Sendfile{
+    margin-top: 100px;
+    padding: 50PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    #photo{
+        display: none;
+    }
+    button{
+        cursor: pointer;
+    }
+    input{
+        width:80%;
+        height:50%;
+        border: none;
+        outline: none;
+       &:focus{
+         border: 2px solid lightpink;
+       }
+    }
+}
